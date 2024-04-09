@@ -10,6 +10,7 @@ function App() {
         <Route path='/' element={<Home />}></Route>
         <Route path='/nav' element={<Navbar />}></Route>
         <Route path='/org' element={<Organization />}></Route>
+        <Route path='/footer' element={<Footer />}></Route>
       </Routes>
     </Router>
 

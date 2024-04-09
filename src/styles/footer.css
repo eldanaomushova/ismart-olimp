@@ -1,0 +1,35 @@
+.footer {
+    background-color: #FFFE03; 
+    color: black; 
+    padding: 20px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.registration a {
+    color: black;
+    text-decoration: none; 
+    padding: 8px 16px; 
+    border: 1px solid black;
+    border-radius: 4px; 
+    transition: background-color 0.3s; 
+    margin-left: 60px;
+}
+.registration a:hover {
+    background-color: #8d8c8c; 
+}
+.links a {
+    color: black; 
+    text-decoration: none; 
+    margin-right: 60px;
+    transition: color 0.3s; 
+}
+
+.links a:hover {
+    color: #aaa;
+}
+
+.icon{
+    color: black;
+    text-decoration: none; 
+}
