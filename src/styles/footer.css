@@ -1,27 +1,37 @@
+.regist-button, .links, .icon{
+    margin: 20px;
+}
+  
 .footer {
     background-color: #FFFE03; 
     color: black; 
-    padding: 20px; 
+    padding: 30px; 
     display: flex;
     justify-content: space-between;
     align-items: center; 
 }
-.registration a {
-    color: black;
-    text-decoration: none; 
-    padding: 8px 16px; 
-    border: 1px solid black;
-    border-radius: 4px; 
-    transition: background-color 0.3s; 
-    margin-left: 60px;
+
+
+.regst-button{
+    padding: 0.5rem 0.9rem;
+    background-color: #096AB8;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 2rem;
+    font-family: system-ui;    
+    font-weight: 500;
 }
-.registration a:hover {
+
+.regst-button a:hover {
     background-color: #8d8c8c; 
 }
+
+
 .links a {
     color: black; 
     text-decoration: none; 
-    margin-right: 60px;
+    
     transition: color 0.3s; 
 }
 
@@ -32,4 +42,28 @@
 .icon{
     color: black;
     text-decoration: none; 
+    margin-right: 60px;
 }
+
+.foot{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.1px;
+    margin:0;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+li {
+margin-bottom: 5px;
+}
+      
+  
+  
+    
+    

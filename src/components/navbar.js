@@ -13,7 +13,7 @@ const navbar = () => {
                 <a href='#organization'>Организация</a>
                 <a href='#competitions'>Соревнования</a>
                 <a href='#sponsors'>Спонсоры</a>
-                <a href='https://mycolor.space/?hex=%23FFFE03&sub=1'><button className='regst-button'>Регистрация</button></a>
+                <a href='https://docs.google.com/forms/d/e/1FAIpQLScKR8yVMH_huauSrgHYZxj43OqkrWvNWdfvbCYuchow64CSLA/viewform'><button className='regst-button'>Регистрация</button></a>
                 <FaWhatsapp id='icons-wh'/>
                 <FaEnvelope id='icons-wh'/>
             </nav>
