@@ -7,7 +7,7 @@ function Footer() {
   return (
     <div>
     <div className="footer">
-    <a href='https://docs.google.com/forms/d/e/1FAIpQLScKR8yVMH_huauSrgHYZxj43OqkrWvNWdfvbCYuchow64CSLA/viewform'><button className='regst-button'>Регистрация</button></a>
+    <a href='https://docs.google.com/forms/d/e/1FAIpQLScKR8yVMH_huauSrgHYZxj43OqkrWvNWdfvbCYuchow64CSLA/viewform'><button className='regist-button'>Регистрация</button></a>
 
       <div className="links">
         <ul>

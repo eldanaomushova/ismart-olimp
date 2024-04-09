@@ -1,69 +1,86 @@
-.regist-button, .links, .icon{
-    margin: 20px;
-}
+body, html {
+    margin: 0;
+    padding: 0;
+    font-size: 16px; 
+  }
   
-.footer {
+  .footer {
     background-color: #FFFE03; 
     color: black; 
-    padding: 30px; 
+    padding: 1.25rem;
     display: flex;
     justify-content: space-between;
     align-items: center; 
-}
-
-
-.regst-button{
-    padding: 0.5rem 0.9rem;
-    background-color: #096AB8;
-    border: none;
-    color: white;
-    font-size: 1.3rem;
-    border-radius: 2rem;
-    font-family: system-ui;    
-    font-weight: 500;
-}
-
-.regst-button a:hover {
+  }
+  
+  .regist-button{
+    color: rgb(0, 0, 0);
+    text-decoration: none; 
+    padding: 0.5rem 1rem;
+    border: 0.0625rem solid black;
+    border-radius: 0.9375rem;
+    margin-left: 3.75rem;
+    background-color: rgb(82, 136, 236);
+  }
+  
+  .regist-button a:hover {
     background-color: #8d8c8c; 
-}
-
-
-.links a {
+  }
+  
+  .links a {
     color: black; 
     text-decoration: none; 
-    
     transition: color 0.3s; 
-}
-
-.links a:hover {
+  }
+  
+  .links a:hover {
     color: #aaa;
-}
-
-.icon{
+  }
+  
+  .icon {
     color: black;
     text-decoration: none; 
-    margin-right: 60px;
-}
-
-.foot{
+    margin-right: 3.75rem;
+  }
+  
+  .foot {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 0.1px;
-    margin:0;
-}
+    padding: 0.00625rem;
+    margin: 0;
+  }
+  
 
-ul {
-    list-style-type: none; 
-    padding: 0; 
-    margin: 0; 
-}
-
-li {
-margin-bottom: 5px;
-}
-      
+  @media only screen and (max-width: 37.5em) {
+    .regist-button a {
+      margin-left: 0.625em; 
+    }
+    
+    .icon {
+      margin-right: 0.625em; 
+    }
+  }
+  
+ 
+ @media only screen and (min-width: 37.563em) and (max-width: 64em) {
+    .regist-button a {
+      margin-left: 1.25rem; 
+    }
+    
+    .icon {
+      margin-right: 1.25rem; 
+    }
+  }
+    
+  @media only screen and (min-width: 64.063em) {
+    .regist-button a {
+      margin-left: 3.75rem; 
+    }
+    
+    .icon {
+      margin-right: 3.75rem; 
+    }
+  }
   
   
-    
-    
