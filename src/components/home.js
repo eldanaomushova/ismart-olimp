@@ -1,11 +1,18 @@
-import React from 'react'
+import React from 'react';
+import Navbar from './navbar';
+import Organization from './organization';
+import Main from './main';
 
-const home = () => {
+const Home = () => {
     return (
-        <div>hello from home
+        <div className='container'>
+        <Navbar />
+        <Main />
         
+        <Organization />
+            
         </div>
-    )
-}
+    );
+};
 
-export default home
+export default Home;
