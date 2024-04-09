@@ -8,9 +8,7 @@ const Home = () => {
         <div className='container'>
         <Navbar />
         <Main />
-        
         <Organization />
-            
         </div>
     );
 };

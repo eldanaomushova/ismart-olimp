@@ -16,3 +16,41 @@ body{
     height: 8px;
     background-color: orange;
 }
+.text{
+    text-align: center;
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: "Open Sans", Arial, sans-serif;
+    width: 44vw;
+    align-self: center;
+    margin: 5rem auto;
+}
+.data-container{
+    display: flex;
+    justify-content: space-around;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.container img{
+    width: 24vw;
+    height: 50vh;
+}
+
+.photo-desc {
+    margin-top: 10px; 
+    color: #fff;
+}
+
+.types {
+    margin-top: 10px;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    background-color: #676767;
+}
