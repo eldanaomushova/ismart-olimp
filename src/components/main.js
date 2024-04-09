@@ -13,8 +13,8 @@ const Main = () => {
                 <div className='ismart-olimp-container'>
                     <h1 className='ismart-olimp'>ISMART OLYMPIAD</h1>
                 </div>
-                <div className='info-container'>
-                    <h2 className='info'>Олимпиада по робототехнике</h2>
+                <div className='info2-container'>
+                    <h2 className='info1'>Олимпиада по робототехнике</h2>
                 </div>
                 <div className='info2-container'>
                     <h2 className='info2'>11 мая 2024 Cambridge school</h2>

@@ -13,8 +13,7 @@ const Navbar = () => {
                 </Link>
                 <a href='#organization'>Организация</a>
                 <a href='#competitions'>Соревнования</a>
-                <a href='#sponsors'>Спонсоры</a>
-                <a href='https://mycolor.space/?hex=%23FFFE03&sub=1'>
+                <a href=''>
                     <button className='regst-button'>Регистрация</button>
                 </a>
                 <a href={`https://wa.me/+996554544501`} target="_blank" rel="noopener noreferrer"><FaWhatsapp id='icons-wh'/></a>
