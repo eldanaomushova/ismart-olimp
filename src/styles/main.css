@@ -1,17 +1,25 @@
 * {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    overflow-x: hidden; 
+
 }
+
+
 
 .main-container {
     width: 100vw;
-    height: 90vh;
+    height: 87vh;
     background-image: url('../images/howe-img.jpg');
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     background-size: cover; 
     position: relative;
+    padding-top: 6rem; 
+    overflow-y: hidden; 
+
 }
 
 .main-container::before {

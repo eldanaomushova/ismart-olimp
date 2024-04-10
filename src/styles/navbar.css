@@ -3,13 +3,16 @@ body {
     padding: 0;
 }
 
+
 .navigation-container {
     background-color: #FFFE03;
     width: 100vw;
     height: fit-content;
     margin: 0;
+    position: fixed;
     top: 0;
     left: 0;
+    z-index: 10; 
 }
 
 .navbar {
@@ -17,6 +20,9 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 0 6rem;
+    width: 100%; 
+    box-sizing: border-box;
+  
 }
 
 #logo {
