@@ -1,17 +1,18 @@
 import React from 'react';
 import '../styles/organization.css';
-import im1 from '../images/img1.jpg';
-import im2 from '../images/img2.jpg';
-import im3 from '../images/img3.png';
+import img2 from '../images/img2.jpeg';
+import img5 from '../images/img5.jpeg';
+import wedo from '../images/wedo.jpeg';
+import ev3 from '../images/ev3.jpeg';
+
 
 const organization = () => {
     return (
         <div className='organization-container' id='organization'>
-            <div class="line"></div>
-            <p className='text'>Мы приглашаем учеников принять участие в захватывающем конкурсе роботов! Это увлекательное соревнование предоставляет возможность командам студентов проявить свои навыки в конструировании, программировании и стратегическом мышлении.</p>
+            <p className='text'>Мы приглашаем учеников принять участие в захватывающем конкурсе роботов! Это увлекательное соревнование предоставляет возможность командам учеников проявить свои навыки в конструировании, программировании и стратегическом мышлении.</p>
             <div className='data-container'>
                 <div className='container'>
-                    <img src={im1} alt="lego ev3" />
+                    <img src={ev3} alt="lego ev3" />
                     <h2 className='photo-desc'>LEGO EV3</h2>
                     <div className='info'>
                         <a href='https://drive.google.com/file/d/1isLFoq5XWdJ5YhwMGeB8UwEOXW-WzF_f/view'><button className='types' id='competitions'>Sumo</button></a>
@@ -22,30 +23,31 @@ const organization = () => {
                         <p>Для соревнований роботов участникам необходимо
                             подготовить автономного робота, способного проехать от
                             старта до финиша, следуя черной линии.</p>
-                        <a href='https://drive.google.com/file/d/1IkLXBtoFxYEzWkYcxwVbtu5JEHuRhCkw/view'><button className='types'>Кегель ринг</button></a>
+                        <a href='https://drive.google.com/file/d/1-2RWrnwc8J4zCHITdGUPk9gH9QCUkcqy/view?usp=drive_link'><button className='types'>Кегель ринг</button></a>
                         <p>За наиболее короткое время робот, не выходя более чем на 5 секунд за
                             пределы круга, очерчивающего ринг, должен вытолкнуть
                             расположенные в нем кегли.</p>
                     </div>
-            </div>
-            <div className='data-container'>
-                <div className='container'>
-                    <img src={im2} alt="DRONE" />
-                    <h2 className='photo-desc'>DRONE</h2>
-                    <div className='info'>
-                        <a href='https://docs.google.com/document/d/1HFoQ5DoowgoUA8nY-cxrhU3geOj2TNRc/edit#heading=h.gjdgxs'><button className='types'>Соревнования дронов</button></a>
-                        <p>Роботу необходимо, перемещаясь по воздуху в ограниченном пространстве, 
-                            выполнить задания облета препятствий, пролета вдоль линии, посадки на поверхность.</p>
-                        <a href='https://docs.google.com/document/d/1HFoQ5DoowgoUA8nY-cxrhU3geOj2TNRc/edit#heading=h.gjdgxs'><button className='types'>drone 2</button></a>
-                        <p>Роботу необходимо, перемещаясь по воздуху в ограниченном пространстве, 
-                            выполнить задания облета препятствий, пролета вдоль линии, посадки на поверхность.</p>
-                    </div>
-                
                 </div>
-            </div>
-            <div className='data-container'>
+                    <div className='container'>
+                        <img src={img2} alt="DRONE" />
+                        <h2 className='photo-desc'>DRONE</h2>
+                        <div className='info'>
+                            <a href='https://docs.google.com/document/d/1HFoQ5DoowgoUA8nY-cxrhU3geOj2TNRc/edit#heading=h.gjdgxs'><button className='types'>Соревнования дронов</button></a>
+                            <p>Роботу необходимо, перемещаясь по воздуху в ограниченном пространстве, 
+                                выполнить задания облета препятствий, пролета вдоль линии, посадки на поверхность.</p>
+                        </div>
+                    </div>
                 <div className='container'>
-                    <img src={im3} alt="lego wedo 2.0" />
+                    <img src={img5} alt="Ev3 Mindstorm" />
+                    <h2 className='photo-desc'>Миникубок Голдберга</h2>
+                    <div className='info'>
+                        <a href='https://docs.google.com/document/d/1W9JqOyXu8GK--V2S_HjPnqfUjJtPQQhGx_w3MlprFew/edit?usp=sharing'><button className='types'>Миникубок Голдберга</button></a>
+                        <p>Соревнования Голдберга проводятся с целью популяризации технологического творчества и профессии инженера среди школьников.</p>
+                    </div>
+                </div>
+                <div className='container'>
+                    <img src={wedo} alt="lego wedo 2.0" />
                     <h2 className='photo-desc'>LEGO WEDO 2.0</h2>
                     <div className='info'>
                         <a href='https://drive.google.com/file/d/131CVESawqDdYHYwIT3TOI5ZojDbBkEBy/view'><button className='types'>Гонки</button></a>
@@ -60,8 +62,8 @@ const organization = () => {
                                 cпособного наиболее быстро проехать от старта до финиша.</p>
                     </div>
                     </div>
-                </div>
             </div>
+            
         </div>
     )
 }

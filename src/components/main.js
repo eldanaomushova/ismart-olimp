@@ -4,6 +4,10 @@ import Navbar from './navbar';
 import Organization from './organization';
 
 const Main = () => {
+    const handleRegstr = () => {
+        window.open("https://docs.google.com/forms/d/e/1FAIpQLScKR8yVMH_huauSrgHYZxj43OqkrWvNWdfvbCYuchow64CSLA/viewform", "_blank");
+    };
+    
     return (
         <div className='container'>
             <div className='main-container'>
@@ -15,11 +19,9 @@ const Main = () => {
                 </div>
                 <div className='info2-container'>
                     <h2 className='info1'>Олимпиада по робототехнике</h2>
-                </div>
-                <div className='info2-container'>
                     <h2 className='info2'>11 мая 2024 Cambridge school</h2>
                 </div>
-                <button className='results-btn'>Результаты 2023</button>
+                <button onClick={handleRegstr} className='results-btn'>Регистрация</button>
             </div>
         </div>
     );
