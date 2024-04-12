@@ -1,7 +1,5 @@
 import React from 'react';
 import '../styles/main.css'
-import Navbar from './navbar';
-import Organization from './organization';
 
 const Main = () => {
     const handleRegstr = () => {

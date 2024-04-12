@@ -27,6 +27,9 @@ const organization = () => {
                         <p>За наиболее короткое время робот, не выходя более чем на 5 секунд за
                             пределы круга, очерчивающего ринг, должен вытолкнуть
                             расположенные в нем кегли.</p>
+                        <a href='https://drive.google.com/file/d/1KFknnKECiq-SjbIrDA4h5zLSN710A8TZ/view?usp=sharing'><button className='types'>Кок-бору</button></a>
+                        <p>Кок-бору — это симбиоз скачек и игры. Мы предлагаем перенести эту игру на поле состязания
+                            роботов. Две команды борются за захват и удерживание максимального количества животных.</p>
                     </div>
                 </div>
                     <div className='container'>
@@ -53,11 +56,11 @@ const organization = () => {
                         <a href='https://drive.google.com/file/d/131CVESawqDdYHYwIT3TOI5ZojDbBkEBy/view'><button className='types'>Гонки</button></a>
                         <p>В этом состязании участникам необходимо подготовить автономного мобильного робота,
                                 способного наиболее быстро проехать от старта до финиша.</p>
-                        <a href='https://drive.google.com/file/d/1Yk55Wt9s_2r-ejwIZhTSkmsGlcb464-H/view'><button className='types'>Перетягивания каната</button></a>
+                        <a href='https://drive.google.com/file/d/1xFf2M-KPyiPVyxag1sLmhVK6UJ_ojfm1/view'><button className='types'>Перетягивания каната</button></a>
                         <p>Участникам необходимо собрать робота, который сможет перетянуть робота соперника на свою половину используя канат.</p>
                         <a href='https://drive.google.com/file/d/1Z59S8FCgoZIqq8khxzKd1htHrTdKcOm7/view?usp=drive_link'><button className='types'>Сборка "Майло" на память и время</button></a>
                         <p>Участникам необходимо успешно собрать робота "Майло" по памяти и на время.</p>
-                        <a href='https://drive.google.com/file/d/131CVESawqDdYHYwIT3TOI5ZojDbBkEBy/view'><button className='types'>Вездеход-полоса препятствий</button></a>
+                        <a href='https://drive.google.com/drive/folders/11R1Ucjqq50cQhWmX_0mWDhHqP8N5LhO0'><button className='types'>Вездеход-полоса препятствий</button></a>
                         <p>В этом состязании участникам необходимо подготовить автономного мобильного робота,
                                 cпособного наиболее быстро проехать от старта до финиша.</p>
                     </div>
