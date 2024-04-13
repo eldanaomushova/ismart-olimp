@@ -15,12 +15,10 @@ function Footer() {
       </div>
       <div className="contacts">
         <ul>
-        <li><a href="https://wa.me/996554544501" className='icon'>
-          <FaWhatsapp style={{ color: 'black' }}/> +996554544501
-        </a></li>
-        <li><a href="mailto:ismartolympiads@gmail.com" className='icon'>
-          <MdOutlineMail style={{ color: 'black' }}/> ismartolympiads@gmail.com
-        </a></li>
+          <li><a href="https://wa.me/996554544501" className='link-text'>
+            <FaWhatsapp style={{ color: 'black' }} className='icon'/> +996554544501</a></li>
+          <li><a href="mailto:ismartolimpiad@gmail.com" className='link-text'>
+            <MdOutlineMail style={{ color: 'black' }} className='icon'/>ismartolimpiad@gmail.com</a></li>
         </ul>
       </div>
     </footer>
@@ -28,5 +26,4 @@ function Footer() {
     
   );
 }
-
 export default Footer;

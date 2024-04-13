@@ -8,16 +8,15 @@ body{
     height: fit-content;
     color: white;
     overflow-y: hidden; 
-    padding-bottom: 20px;
 }
 .text{
     text-align: center;
     color: #fff;
-    font-size: 1.6rem;
+    font-size: 2vw;
     font-family: "Open Sans", Arial, sans-serif;
     width: 70vw;
     align-self: center;
-    margin: 8rem auto;
+    margin: 5vw auto;
     height: auto;
 }
 .data-container{
@@ -32,15 +31,17 @@ body{
 }
 .container img{
     width: 24vw;
-    height: 50vh;
+    height: 40vh;
 }
 .photo-desc {
-    margin-top: 3rem; 
+    margin-top: 6vh; 
     color: #fff;
 }
 .info{
     width: 22vw;
-    
+}
+.info:last-child {
+    margin-bottom: 6vh;
 }
 @keyframes zoomAnimation {
     0% {
@@ -55,64 +56,155 @@ body{
 }
 
 .types {
-    margin-left: 0.3rem;
+    margin-left: 1vw;
     margin-top: 9vh;
-    padding: 0.5rem 1rem;
+    padding: 0.5vw 1vw;
     color: #000000;
     border: none;
     border-radius: 20px;
-    font-size: 1rem;
+    font-size: 1.25vw;
     background-color: #FFFE03;
     animation: zoomAnimation 1s ease infinite; 
 }
 
 p{
-    font-size: 1rem;
+    font-size: 1.2vw;
     margin-top: 2vh;
     color: #fff;
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 340px) {
     .organization-container {
         height: auto; 
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-bottom: 0;
     }
     .text {
-        width: 90vw; 
-        margin: 4rem auto; 
+        width: 95vw; 
+        margin: 4rem auto;
+        font-size: 5vw; 
     }
-    
     .data-container {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
-    
     .container img {
         width: 80%; 
         height: auto; 
     }
-    
     .photo-desc {
-        margin-top: 1.5rem;
+        margin-top: 1.2rem;
         font-size: 1rem; 
     }
-    
     .info {
         width: 80%;
         font-size: 0.9rem; 
     }
-    
+    .info:last-child {
+        margin-bottom: 12vh;
+    }
     .types {
         margin-top: 5vh; 
         font-size: 0.8rem;
+        padding: 1.4vw 4vw;
     }
-    
     p {
         font-size: 0.9rem;
         margin-top: 1vh; 
-        color: #fff;
+    }
+}
+
+@media screen and (min-width: 340px) and (max-width: 768px) {
+    .organization-container {
+        height: auto; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0;
+    }
+    .text {
+        width: 95vw; 
+        margin: 4rem auto;
+        font-size: 5vw; 
+    }
+    .data-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .container img {
+        width: 80%; 
+        height: auto; 
+    }
+    .photo-desc {
+        margin-top: 1.2rem;
+        font-size: 6vw; 
+    }
+    .info {
+        width: 80%;
+        font-size: 4vw; 
+    }
+    .info:last-child {
+        margin-bottom: 9vh;
+    }
+    .types {
+        margin-top: 5vh; 
+        font-size: 4vw;
+        padding: 1.4vw 4vw;
+    }
+    p {
+        font-size: 4vw;
+        margin-top: 1vh; 
         margin-bottom: 10px;
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .organization-container {
+        height: auto; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0;
+    }
+    .text {
+        width: 95vw; 
+        margin: 4rem auto;
+        font-size: 4vw; 
+    }
+    .data-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .container img {
+        width: 80%; 
+        height: auto; 
+    }
+    .photo-desc {
+        margin-top: 4vh;
+        font-size: 5vw; 
+    }
+    .info {
+        width: 80%;
+        font-size: 4vw; 
+    }
+    .info:last-child {
+        margin-bottom: 9vh;
+    }
+    .types {
+        margin-top: 5vh; 
+        font-size: 3.8vw;
+        padding: 1.4vw 4vw;
+        border-radius: 50vw;
+    }
+    p {
+        font-size: 3.5vw;
+        margin-top: 2vh; 
+        margin-bottom: 10px;
+    }
+}
+

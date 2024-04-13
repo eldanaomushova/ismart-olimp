@@ -1,11 +1,7 @@
-*{
-    /* overflow: hidden; */
-}
 body {
     margin: 0;
     padding: 0;
 }
-
 
 .navigation-container {
     background-color: #FFFE03;
@@ -16,10 +12,18 @@ body {
     left: 0;
     z-index: 10; 
 }
+.main-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 .navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 0 6rem;
     width: 100%; 
@@ -46,38 +50,79 @@ body {
     z-index: 1;
     text-align: center;
 }
-
+.icons-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3.5rem;
+}
 
 #icons-wh {
     font-size: 2rem;
 }
 
+
 @media screen and (max-width: 768px) {
-    
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0;
+    .navigation-container {
+        height: 14vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+    }
+    #logo {
+        width: 23.8vw;
+        margin-right: 0;
+    }
+    .navbar a {
+        margin-left: 2vw;
+        font-size: 3.3vw;
+        font-weight: 400;
+        z-index: 1;
+        text-align: center;
+    }
+    #icons-wh {
+        font-size: 4.8vw;
+        margin-right: 3px;
+    }
+    .icons-block{
+        margin-left: 1rem;
+    }
 }
-
-#logo {
-    width: 23vw;
-    margin-right: 0;
-}
-
-.navbar a {
-    margin-left: 2vw;
-    font-size: 3vw;
-    font-weight: 400;
-    z-index: 1;
-    text-align: center;
-
-}
-
-#icons-wh {
-    font-size: 5vw;
-    margin-right: 3px;
-}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .navigation-container {
+        height: 12vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+    }
+    #logo {
+        width: 23vw;
+        margin-right: 0;
+    }
+    .navbar a {
+        margin-left: 2vw;
+        font-size: 3vw;
+        font-weight: 400;
+        z-index: 1;
+        text-align: center;
+    }
+    #icons-wh {
+        font-size: 4.4vw;
+        margin-right: 3px;
+    }
+    .icons-block{
+        margin-left: 1rem;
+    }
 }

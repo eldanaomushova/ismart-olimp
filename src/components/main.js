@@ -1,11 +1,23 @@
-import React from 'react';
-import '../styles/main.css'
+import React, { useEffect } from 'react';
+import '../styles/main.css';
 
 const Main = () => {
     const handleRegstr = () => {
         window.open("https://docs.google.com/forms/d/e/1FAIpQLScKR8yVMH_huauSrgHYZxj43OqkrWvNWdfvbCYuchow64CSLA/viewform", "_blank");
     };
-    
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY < 0) {
+                window.scrollTo(0, 0); 
+            }
+        };
+        window.addEventListener("scroll", handleScroll);
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []); 
+
     return (
         <div className='container'>
             <div className='main-container'>

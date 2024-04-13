@@ -10,8 +10,11 @@ const Navbar = () => {
                 <img src={logo} alt='logo' id='logo'/>
                 <a href='#organization'>Организация</a>
                 <a href='#competitions'>Соревнования</a>
-                <a href={`https://wa.me/+996554544501`} target="_blank" rel="noopener noreferrer"><FaWhatsapp id='icons-wh'/></a>
-                <a href={`mailto:ismartolimpiad@gmail.com`} target="_blank" rel="noopener noreferrer"><FaEnvelope id='icons-wh'/></a>
+                <div className='icons-block'>
+                    <a href={`https://wa.me/+996554544501`} target="_blank" rel="noopener noreferrer"><FaWhatsapp id='icons-wh'/></a>
+                    <a href={`mailto:ismartolimpiad@gmail.com`} target="_blank" rel="noopener noreferrer"><FaEnvelope id='icons-wh'/></a>
+                </div>
+                
             </nav>
         </div>
     )
