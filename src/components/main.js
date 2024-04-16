@@ -19,7 +19,7 @@ const Main = () => {
     }, []); 
 
     return (
-        <div className='container'>
+        <div className='container' id='start'>
             <div className='main-container'>
                 <div className='school-name-container'>
                     <h2 className='school-name'>МЕЖДУНАРОДНОЕ ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ “САПАТ”</h2>
