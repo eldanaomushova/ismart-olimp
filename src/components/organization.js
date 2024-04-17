@@ -5,10 +5,9 @@ import img5 from '../images/img5.jpeg';
 import wedo from '../images/wedo.jpeg';
 import ev3 from '../images/ev3.jpeg';
 
-
-const organization = () => {
+const Organization = () => {
     return (
-        <div className='organization-container' id='organization'>
+        <div className='organization-container'>
             <p className='text'>Мы приглашаем учеников принять участие в захватывающем конкурсе роботов! Это увлекательное соревнование предоставляет возможность командам учеников проявить свои навыки в конструировании, программировании и стратегическом мышлении.</p>
             <div className='data-container'>
                 <div className='container'>
@@ -39,13 +38,15 @@ const organization = () => {
                             <a href='https://docs.google.com/document/d/1HFoQ5DoowgoUA8nY-cxrhU3geOj2TNRc/edit#heading=h.gjdgxs'><button className='types'>Соревнования дронов</button></a>
                             <p>Роботу необходимо, перемещаясь по воздуху в ограниченном пространстве, 
                                 выполнить задания облета препятствий, пролета вдоль линии, посадки на поверхность.</p>
+                            <a href='https://docs.google.com/document/d/1e51Mq1ZV2aiLICJuLX7e-EskqMdnReugwmpDVSTLzdU/edit?usp=sharing'><button className='types'>Дрон-рейсинг</button></a>
+                            <p>Дроны проходят через трассу с препятствиями, стараясь пройти её как можно быстрее.</p>
                         </div>
                     </div>
                 <div className='container'>
                     <img src={img5} alt="Ev3 Mindstorm" />
                     <h2 className='photo-desc'>Миникубок Голдберга</h2>
                     <div className='info'>
-                        <a href='https://docs.google.com/document/d/1W9JqOyXu8GK--V2S_HjPnqfUjJtPQQhGx_w3MlprFew/edit?usp=sharing'><button className='types'>Миникубок Голдберга</button></a>
+                        <a href='https://docs.google.com/document/d/1eNlIue8Bmxt-dWnSpmBXW5Zwo_AYG8-IPONBz1CGqK4/edit?usp=sharing'><button className='types'>Миникубок Голдберга</button></a>
                         <p>Соревнования Голдберга проводятся с целью популяризации технологического творчества и профессии инженера среди школьников.</p>
                     </div>
                 </div>
@@ -53,22 +54,21 @@ const organization = () => {
                     <img src={wedo} alt="lego wedo 2.0" />
                     <h2 className='photo-desc'>LEGO WEDO 2.0</h2>
                     <div className='info'>
-                        <a href='https://drive.google.com/file/d/131CVESawqDdYHYwIT3TOI5ZojDbBkEBy/view'><button className='types'>Гонки</button></a>
+                        <a href='https://drive.google.com/file/d/131CVESawqDdYHYwIT3TOI5ZojDbBkEBy/view'><button className='types'>Гонка</button></a>
                         <p>В этом состязании участникам необходимо подготовить автономного мобильного робота,
                                 способного наиболее быстро проехать от старта до финиша.</p>
                         <a href='https://drive.google.com/file/d/1xFf2M-KPyiPVyxag1sLmhVK6UJ_ojfm1/view'><button className='types'>Перетягивания каната</button></a>
                         <p>Участникам необходимо собрать робота, который сможет перетянуть робота соперника на свою половину используя канат.</p>
-                        <a href='https://drive.google.com/file/d/1Z59S8FCgoZIqq8khxzKd1htHrTdKcOm7/view?usp=drive_link'><button className='types'>Сборка "Майло"</button></a>
+                        <a href='https://drive.google.com/file/d/1Z59S8FCgoZIqq8khxzKd1htHrTdKcOm7/view?usp=sharing'><button className='types'>Сборка "Майло"</button></a>
                         <p>Участникам необходимо успешно собрать робота "Майло" по памяти и на время.</p>
-                        <a href='https://drive.google.com/drive/folders/11R1Ucjqq50cQhWmX_0mWDhHqP8N5LhO0'><button className='types'>Вездеход-полоса препятствий</button></a>
+                        <a href='https://drive.google.com/file/d/1VAfFqzNbloXxPlIesla-Jr043kp2kYow/view?usp=drivesdk'><button className='types'>Вездеход-полоса препятствий</button></a>
                         <p>В этом состязании участникам необходимо подготовить автономного мобильного робота,
                                 cпособного наиболее быстро проехать от старта до финиша.</p>
                     </div>
                     </div>
             </div>
-            
         </div>
     )
 }
 
-export default organization
+export default Organization;

@@ -3,6 +3,7 @@ import Home from './components/home';
 import Navbar from './components/navbar';
 import Organization from './components/organization';
 import Footer from './components/footer';
+import Team from './components/team';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path='/nav' element={<Navbar />}></Route>
         <Route path='/org' element={<Organization />}></Route>
         <Route path='/footer' element={<Footer />}></Route>
+        <Route path='/slider' element={<Team />}></Route>
       </Routes>
     </Router>
 

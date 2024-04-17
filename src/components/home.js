@@ -3,6 +3,7 @@ import Navbar from './navbar';
 import Organization from './organization';
 import Main from './main';
 import Footer from './footer';
+import Team from './team';
 
 const Home = () => {
     return (
@@ -10,6 +11,7 @@ const Home = () => {
             <Navbar />
             <Main />
             <Organization />
+            <Team />
             <Footer/>
         </div>
     );

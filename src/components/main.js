@@ -19,7 +19,7 @@ const Main = () => {
     }, []); 
 
     return (
-        <div className='container'>
+        <div className='container' id='start'>
             <div className='main-container'>
                 <div className='school-name-container'>
                     <h2 className='school-name'>МЕЖДУНАРОДНОЕ ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ “САПАТ”</h2>
@@ -32,6 +32,7 @@ const Main = () => {
                     <h2 className='info2'>11 мая 2024 Cambridge school</h2>
                 </div>
                 <button onClick={handleRegstr} className='results-btn'>Регистрация</button>
+                <h2 className='deadline'>&#10035; Дедлайн: 4 мая 00:00</h2>
             </div>
         </div>
     );
