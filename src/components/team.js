@@ -1,33 +1,21 @@
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import React from 'react';
+import teamData from '../data/teamData';
 import '../styles/team.css';
-import teamdata from '../data/teamData';
-
-const Team = () => {
-    const settings = {
-        dots: true,
-        speed: 500,
-        slidesToShow: 6,
-        slidesToScroll: 1,
-        infinite: true,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        
-    };
-
-    return (
+function Team () {
+    return(
         <div>
-            <h2>Carousel Component</h2>
-            <Slider {...settings}>
-                {teamdata.map((d) => (
-                    <div key={d.id}>
-                        <img src={require(`../images/teamimg/${d.name}.jpeg`)} alt={d.name} style={{ width: "150px" }}/>
+            <h1 id='header'>Наша команда</h1>
+            <div className='products-container'>
+            {teamData.map((record) => (
+                    <div className='box' key={record.id}>
+                        <img src={require(`../images/teamimg/${record.name}.jpeg`)} alt={record.name} />
+                        <p className='name'>{record.name}</p>
+                        <p className='responsibility'>{record.responsibility}</p>
                     </div>
                 ))}
-            </Slider>
+            </div>
         </div>
-    );
-};
+    )
+}
 
 export default Team;

@@ -12,12 +12,12 @@ const teamData = [
     {
         id: 3,
         name: "Бектур",
-        responsibility: "Куратор"
+        responsibility: "Координатор"
     },
     {
         id: 4,
         name: "Эльдана",
-        responsibility: "Куратор"
+        responsibility: "Координатор"
     },
     {
         id: 5,
