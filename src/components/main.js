@@ -32,6 +32,7 @@ const Main = () => {
                     <h2 className='info2'>11 мая 2024 Cambridge school</h2>
                 </div>
                 <button onClick={handleRegstr} className='results-btn'>Регистрация</button>
+                <h2 className='free'>Бесплатное участие</h2>
                 <h2 className='deadline'>&#10035; Дедлайн: 4 мая 00:00</h2>
             </div>
         </div>

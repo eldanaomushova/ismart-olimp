@@ -19,6 +19,16 @@ body{
     margin: 5vw auto;
     height: auto;
 }
+.rules{
+    text-align: center;
+    color: #6af33d;
+    font-size: 2vw;
+    font-family: "Open Sans", Arial, sans-serif;
+    width: 70vw;
+    align-self: center;
+    margin: 5vw auto;
+    height: auto;
+}
 .data-container{
     display: flex;
     justify-content: space-around;
@@ -81,7 +91,8 @@ p{
         align-items: center;
         padding-bottom: 0;
     }
-    .text {
+    .text,
+    .rules {
         width: 95vw; 
         margin: 4rem auto;
         font-size: 5vw; 
@@ -125,7 +136,8 @@ p{
         align-items: center;
         padding-bottom: 0;
     }
-    .text {
+    .text,
+    .rules {
         width: 95vw; 
         margin: 4rem auto;
         font-size: 5vw; 
@@ -170,7 +182,8 @@ p{
         align-items: center;
         padding-bottom: 0;
     }
-    .text {
+    .text,
+    .rules {
         width: 95vw; 
         margin: 4rem auto;
         font-size: 4vw; 

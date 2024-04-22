@@ -71,7 +71,7 @@ const teamData = [
     },
     {
         id: 15,
-        name: "Шахноза",
+        name: "Шахназа",
         responsibility: "Гонка"
     },
     {
@@ -91,6 +91,26 @@ const teamData = [
     },
     {
         id: 19,
+        name: "Санжар",
+        responsibility: "Перетягивание каната"
+    },
+    {
+        id: 20,
+        name: "Нурсултан",
+        responsibility: "Вездеход"
+    },
+    {
+        id: 21,
+        name: "Тынай",
+        responsibility: "Перетягивание каната"
+    },
+    {
+        id: 22,
+        name: "Санжар М",
+        responsibility: "Перетягивание каната"
+    },
+    {
+        id: 23,
         name: "Эмир",
         responsibility: "Разработчик"
     },

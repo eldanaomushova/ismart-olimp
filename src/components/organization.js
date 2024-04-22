@@ -9,6 +9,7 @@ const Organization = () => {
     return (
         <div className='organization-container'>
             <p className='text'>Мы приглашаем учеников принять участие в захватывающем конкурсе роботов! Это увлекательное соревнование предоставляет возможность командам учеников проявить свои навыки в конструировании, программировании и стратегическом мышлении.</p>
+            <p className='rules'>Команда должна состоять из 1-3 человек, 1 команда может участвовать максимум в 2 категориях. Просим участников принести на олимпиаду только роботов ev3 или wedo 2.0. Прочтите положения ниже, чтобы ознакомиться с правилами игр.</p>
             <div className='data-container'>
                 <div className='container'>
                     <img src={ev3} alt="lego ev3" />
@@ -57,7 +58,7 @@ const Organization = () => {
                         <a href='https://drive.google.com/file/d/131CVESawqDdYHYwIT3TOI5ZojDbBkEBy/view'><button className='types'>Гонка</button></a>
                         <p>В этом состязании участникам необходимо подготовить автономного мобильного робота,
                                 способного наиболее быстро проехать от старта до финиша.</p>
-                        <a href='https://drive.google.com/file/d/1xFf2M-KPyiPVyxag1sLmhVK6UJ_ojfm1/view'><button className='types'>Перетягивания каната</button></a>
+                        <a href='https://drive.google.com/file/d/1xFf2M-KPyiPVyxag1sLmhVK6UJ_ojfm1/view'><button className='types'>Перетягивание каната</button></a>
                         <p>Участникам необходимо собрать робота, который сможет перетянуть робота соперника на свою половину используя канат.</p>
                         <a href='https://drive.google.com/file/d/1Z59S8FCgoZIqq8khxzKd1htHrTdKcOm7/view?usp=sharing'><button className='types'>Сборка "Майло"</button></a>
                         <p>Участникам необходимо успешно собрать робота "Майло" по памяти и на время.</p>

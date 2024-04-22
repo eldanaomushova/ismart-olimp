@@ -90,7 +90,7 @@
 }
 
 .results-btn{
-    margin-top: 6vh;
+    margin-top: 5vh;
     z-index: 1;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
@@ -104,11 +104,18 @@
     border: none;
     border-radius: 50px;
 }
-.deadline{
+.deadline,
+.free{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
     color: #fff;
     font-size: 1.2vw;
+    z-index: 1;
+    margin-top: 1vw;
+}
+.free{
+    color: #f6f6f6;
+    font-size: 2vw;
     z-index: 1;
     margin-top: 1vw;
 }
@@ -138,9 +145,16 @@
         padding: 2vw 6vw;
         margin-top: 12vh;
     }
-    .deadline{
+    .deadline,
+    .free{
         font-weight: 100;
         font-size: 4vw;
+        margin-top: 2vw;
+    }
+    .free{
+        color: #f6f6f6;
+        font-size: 5vw;
+        z-index: 1;
         margin-top: 2vw;
     }
 }
@@ -171,9 +185,16 @@
         padding: 2vw 6vw;
         margin-top: 12vh;
     }
-    .deadline{
+    .deadline,
+    .free{
         font-weight: 100;
         font-size: 4vw;
+        margin-top: 1.4vw;
+    }
+    .free{
+        color: #f6f6f6;
+        font-size: 5vw;
+        z-index: 1;
         margin-top: 2vw;
     }
 }
@@ -191,7 +212,7 @@
     }
     .ismart-olimp {
         font-weight: 300;
-        font-size: 7vw;
+        font-size: 6vw;
         margin-top: 10vh;
     }
     .info1, .info2 {
@@ -202,12 +223,19 @@
     .results-btn{
         font-size: 5vw;
         padding: 2vw 6vw;
-        margin-top: 12vh;
+        margin-top: 10vh;
     }
-    .deadline{
+    .deadline,
+    .free{
         font-weight: 100;
         font-size: 3vw;
-        margin-top: 2vw;
+        margin-top: 1.4vw;
+    }
+    .free{
+        color: #f6f6f6;
+        font-size: 4vw;
+        z-index: 1;
+        margin-top: 1.4vw;
     }
 }
 
