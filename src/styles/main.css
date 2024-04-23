@@ -207,23 +207,23 @@
         margin-top: 0;
     }
     .school-name {
-        font-size: 5vw;
+        font-size: 4vw;
         width: 80%;
     }
     .ismart-olimp {
         font-weight: 300;
-        font-size: 6vw;
-        margin-top: 10vh;
+        font-size: 5vw;
+        margin-top: 8vh;
     }
     .info1, .info2 {
         font-weight: 200;
         font-size: 5vw;
-        margin-top: 5vw;
+        margin-top: 4vw;
     }
     .results-btn{
         font-size: 5vw;
         padding: 2vw 6vw;
-        margin-top: 10vh;
+        margin-top: 8vh;
     }
     .deadline,
     .free{

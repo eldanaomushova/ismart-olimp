@@ -4,6 +4,7 @@ import img2 from '../images/img2.jpeg';
 import img5 from '../images/img5.jpeg';
 import wedo from '../images/wedo.jpeg';
 import ev3 from '../images/ev3.jpeg';
+import { IoDocumentTextOutline, IoLogoYoutube } from "react-icons/io5";
 
 const Organization = () => {
     return (
@@ -15,31 +16,56 @@ const Organization = () => {
                     <img src={ev3} alt="lego ev3" />
                     <h2 className='photo-desc'>LEGO EV3</h2>
                     <div className='info'>
-                        <a href='https://drive.google.com/file/d/1isLFoq5XWdJ5YhwMGeB8UwEOXW-WzF_f/view'><button className='types' id='competitions'>Sumo</button></a>
-                        <p>Участникам необходимо подготовить автономного робота,
-                            способного наиболее эффективно вытолкнуть робота-противника
-                            за пределы круга, очерчивающего ринг - за черную линию ринга.</p>
-                        <a href='https://drive.google.com/file/d/1sht1u2ARG2bPB4hDJUA3s_zYybE6swzI/view'><button className='types'>Line follower</button></a>
-                        <p>Для соревнований роботов участникам необходимо
-                            подготовить автономного робота, способного проехать от
-                            старта до финиша, следуя черной линии.</p>
-                        <a href='https://drive.google.com/file/d/1-2RWrnwc8J4zCHITdGUPk9gH9QCUkcqy/view?usp=drive_link'><button className='types'>Кегель ринг</button></a>
-                        <p>За наиболее короткое время робот, не выходя более чем на 5 секунд за
-                            пределы круга, очерчивающего ринг, должен вытолкнуть
-                            расположенные в нем кегли.</p>
-                        <a href='https://drive.google.com/file/d/1KFknnKECiq-SjbIrDA4h5zLSN710A8TZ/view?usp=sharing'><button className='types'>Кок-бору</button></a>
-                        <p>Кок-бору — это симбиоз скачек и игры. Мы предлагаем перенести эту игру на поле состязания
-                            роботов. Две команды борются за захват и удерживание максимального количества животных.</p>
+                        <div className='name-links'>
+                            <h3 className='types' id='competitions'>Sumo</h3>
+                            <a href='https://drive.google.com/file/d/1isLFoq5XWdJ5YhwMGeB8UwEOXW-WzF_f/view' className='doc-link'><IoDocumentTextOutline id='icon'/></a>
+                            <a href='https://youtu.be/Cq3cHJblTfw' className='doc-link'><IoLogoYoutube id='icon'/></a>
+                        </div>
+                            <p>Участникам необходимо подготовить автономного робота,
+                                способного наиболее эффективно вытолкнуть робота-противника
+                                за пределы круга, очерчивающего ринг - за черную линию ринга.</p>
+                        
+                        <div className='name-links'>
+                            <h3 className='types' id='competitions'>Line follower</h3>
+                            <a href='https://drive.google.com/file/d/1sht1u2ARG2bPB4hDJUA3s_zYybE6swzI/view' className='doc-link'><IoDocumentTextOutline id='icon'/></a>
+                            <a href='https://youtu.be/OYAcNhoaX34' className='doc-link'><IoLogoYoutube id='icon'/></a>
+                        </div>
+                            <p>Для соревнований роботов участникам необходимо
+                                подготовить автономного робота, способного проехать от
+                                старта до финиша, следуя черной линии.</p>
+                        <div className='name-links'>
+                            <h3 className='types' id='competitions'>Кегель ринг</h3>
+                            <a href='https://drive.google.com/file/d/1-2RWrnwc8J4zCHITdGUPk9gH9QCUkcqy/view?usp=drive_link' className='doc-link'><IoDocumentTextOutline id='icon'/></a>
+                            <a href='https://youtu.be/f33a-SdjCNk' className='doc-link'><IoLogoYoutube id='icon'/></a>
+                        </div>
+                            <p>За наиболее короткое время робот, не выходя более чем на 5 секунд за
+                                пределы круга, очерчивающего ринг, должен вытолкнуть
+                                расположенные в нем кегли.</p>
+                        <div className='name-links'>
+                            <h3 className='types' id='competitions'>Кок-бору</h3>
+                            <a href='https://drive.google.com/file/d/1KFknnKECiq-SjbIrDA4h5zLSN710A8TZ/view?usp=sharing' className='doc-link'><IoDocumentTextOutline id='icon'/></a>
+                            <a href='' className='doc-link'><IoLogoYoutube id='icon'/></a>
+                        </div>
+                            <p>Кок-бору — это симбиоз скачек и игры. Мы предлагаем перенести эту игру на поле состязания
+                                роботов. Две команды борются за захват и удерживание максимального количества животных.</p>
                     </div>
                 </div>
                     <div className='container'>
                         <img src={img2} alt="DRONE" />
                         <h2 className='photo-desc'>DRONE</h2>
                         <div className='info'>
-                            <a href='https://docs.google.com/document/d/1HFoQ5DoowgoUA8nY-cxrhU3geOj2TNRc/edit#heading=h.gjdgxs'><button className='types'>Соревнования дронов</button></a>
+                        <div className='name-links'>
+                            <h3 className='types' id='competitions'>Соревнования дронов</h3>
+                            <a href='https://docs.google.com/document/d/1HFoQ5DoowgoUA8nY-cxrhU3geOj2TNRc/edit#heading=h.gjdgxs' className='doc-link'><IoDocumentTextOutline id='icon'/></a>
+                            <a href='' className='doc-link'><IoLogoYoutube id='icon'/></a>
+                        </div>
                             <p>Роботу необходимо, перемещаясь по воздуху в ограниченном пространстве, 
                                 выполнить задания облета препятствий, пролета вдоль линии, посадки на поверхность.</p>
-                            <a href='https://docs.google.com/document/d/1e51Mq1ZV2aiLICJuLX7e-EskqMdnReugwmpDVSTLzdU/edit?usp=sharing'><button className='types'>Дрон-рейсинг</button></a>
+                        <div className='name-links'>
+                            <h3 className='types' id='competitions'>Дрон-рейсинг</h3>
+                            <a href='https://docs.google.com/document/d/1e51Mq1ZV2aiLICJuLX7e-EskqMdnReugwmpDVSTLzdU/edit?usp=sharing' className='doc-link'><IoDocumentTextOutline id='icon'/></a>
+                            <a href='' className='doc-link'><IoLogoYoutube id='icon'/></a>
+                        </div>
                             <p>Дроны проходят через трассу с препятствиями, стараясь пройти её как можно быстрее.</p>
                         </div>
                     </div>
@@ -47,7 +73,11 @@ const Organization = () => {
                     <img src={img5} alt="Ev3 Mindstorm" />
                     <h2 className='photo-desc'>Миникубок Голдберга</h2>
                     <div className='info'>
-                        <a href='https://docs.google.com/document/d/1eNlIue8Bmxt-dWnSpmBXW5Zwo_AYG8-IPONBz1CGqK4/edit?usp=sharing'><button className='types'>Миникубок Голдберга</button></a>
+                        <div className='name-links'>
+                            <h3 className='types' id='competitions'>Миникубок Голдберга</h3>
+                            <a href='https://docs.google.com/document/d/1eNlIue8Bmxt-dWnSpmBXW5Zwo_AYG8-IPONBz1CGqK4/edit?usp=sharing' className='doc-link'><IoDocumentTextOutline id='icon'/></a>
+                            <a href='' className='doc-link'><IoLogoYoutube id='icon'/></a>
+                        </div>
                         <p>Соревнования Голдберга проводятся с целью популяризации технологического творчества и профессии инженера среди школьников.</p>
                     </div>
                 </div>
@@ -55,14 +85,30 @@ const Organization = () => {
                     <img src={wedo} alt="lego wedo 2.0" />
                     <h2 className='photo-desc'>LEGO WEDO 2.0</h2>
                     <div className='info'>
-                        <a href='https://drive.google.com/file/d/131CVESawqDdYHYwIT3TOI5ZojDbBkEBy/view'><button className='types'>Гонка</button></a>
+                        <div className='name-links'>
+                            <h3 className='types' id='competitions'>Гонка</h3>
+                            <a href='https://drive.google.com/file/d/131CVESawqDdYHYwIT3TOI5ZojDbBkEBy/view' className='doc-link'><IoDocumentTextOutline id='icon'/></a>
+                            <a href='https://youtu.be/mPP3Wc_SZqI' className='doc-link'><IoLogoYoutube id='icon'/></a>
+                        </div>
                         <p>В этом состязании участникам необходимо подготовить автономного мобильного робота,
                                 способного наиболее быстро проехать от старта до финиша.</p>
-                        <a href='https://drive.google.com/file/d/1xFf2M-KPyiPVyxag1sLmhVK6UJ_ojfm1/view'><button className='types'>Перетягивание каната</button></a>
+                        <div className='name-links'>
+                            <h3 className='types' id='competitions'>Перетягивание каната</h3>
+                            <a href='https://drive.google.com/file/d/1xFf2M-KPyiPVyxag1sLmhVK6UJ_ojfm1/view' className='doc-link'><IoDocumentTextOutline id='icon'/></a>
+                            <a href='https://youtu.be/sdhbYD0WvVc?si=r5B0LtA5y6Bq2ERl' className='doc-link'><IoLogoYoutube id='icon'/></a>
+                        </div>
                         <p>Участникам необходимо собрать робота, который сможет перетянуть робота соперника на свою половину используя канат.</p>
-                        <a href='https://drive.google.com/file/d/1Z59S8FCgoZIqq8khxzKd1htHrTdKcOm7/view?usp=sharing'><button className='types'>Сборка "Майло"</button></a>
+                        <div className='name-links'>
+                            <h3 className='types' id='competitions'>Сборка "Майло"</h3>
+                            <a href='https://drive.google.com/file/d/1Z59S8FCgoZIqq8khxzKd1htHrTdKcOm7/view?usp=sharing' className='doc-link'><IoDocumentTextOutline id='icon'/></a>
+                            <a href='https://youtu.be/prpGB8BhnVU' className='doc-link'><IoLogoYoutube id='icon'/></a>
+                        </div>
                         <p>Участникам необходимо успешно собрать робота "Майло" по памяти и на время.</p>
-                        <a href='https://drive.google.com/file/d/1VAfFqzNbloXxPlIesla-Jr043kp2kYow/view?usp=drivesdk'><button className='types'>Вездеход-полоса препятствий</button></a>
+                        <div className='name-links'>
+                            <h3 className='types' id='competitions'>Вездеход-полоса препятствий</h3>
+                            <a href='https://drive.google.com/file/d/1VAfFqzNbloXxPlIesla-Jr043kp2kYow/view?usp=drivesdk' className='doc-link'><IoDocumentTextOutline id='icon'/></a>
+                            <a href='https://youtu.be/vbXJSc8UauQ' className='doc-link'><IoLogoYoutube id='icon'/></a>
+                        </div>
                         <p>В этом состязании участникам необходимо подготовить автономного мобильного робота,
                                 cпособного наиболее быстро проехать от старта до финиша.</p>
                     </div>

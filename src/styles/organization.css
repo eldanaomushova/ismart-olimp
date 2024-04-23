@@ -53,49 +53,48 @@ body{
 .info:last-child {
     margin-bottom: 6vh;
 }
-@keyframes zoomAnimation {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.02); 
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-
-.types {
-    margin-left: 1vw;
+.name-links{
+    display: flex;
     margin-top: 9vh;
-    padding: 0.5vw 1vw;
-    color: #000000;
-    border: none;
-    border-radius: 20px;
-    font-size: 1.25vw;
-    background-color: #FFFE03;
-    animation: zoomAnimation 1s ease infinite; 
 }
-
+.types {
+    color: #fff700;
+    font-size: 1.8vw;
+    font-family: "Open Sans", Arial, sans-serif;
+    width: fit-content;
+    width: 14vw;
+}
+#icon{
+    font-size: 1.8vw;
+    margin-left: 0.8vw;
+    color: #ffffff;
+}
+#icon:hover{
+    color: #b5b5b5;
+}
 p{
     font-size: 1.2vw;
     margin-top: 2vh;
     color: #fff;
+    margin-bottom: 0.4vw;
 }
+
 
 @media screen and (max-width: 340px) {
     .organization-container {
         height: auto; 
         display: flex;
         flex-direction: column;
-        align-items: center;
         padding-bottom: 0;
     }
     .text,
     .rules {
         width: 95vw; 
-        margin: 4rem auto;
+        margin: 2rem auto;
         font-size: 5vw; 
+    }
+    .rules {
+        margin-top: 1rem;
     }
     .data-container {
         display: flex;
@@ -117,14 +116,18 @@ p{
     .info:last-child {
         margin-bottom: 12vh;
     }
-    .types {
-        margin-top: 5vh; 
-        font-size: 0.8rem;
-        padding: 1.4vw 4vw;
+    .name-links{
+        margin-top: 9vh;
     }
-    p {
-        font-size: 0.9rem;
-        margin-top: 1vh; 
+    .types {
+        font-size: 7vw;
+        width: 54vw;
+    }
+    #icon{
+        font-size: 8vw;
+    }
+    p{
+        font-size: 5vw;
     }
 }
 
@@ -162,15 +165,18 @@ p{
     .info:last-child {
         margin-bottom: 9vh;
     }
-    .types {
-        margin-top: 5vh; 
-        font-size: 4vw;
-        padding: 1.4vw 4vw;
+    .name-links{
+        margin-top: 9vh;
     }
-    p {
-        font-size: 4vw;
-        margin-top: 1vh; 
-        margin-bottom: 10px;
+    .types {
+        font-size: 7vw;
+        width: 58vw;
+    }
+    #icon{
+        font-size: 8vw;
+    }
+    p{
+        font-size: 5vw;
     }
 }
 
@@ -209,15 +215,14 @@ p{
         margin-bottom: 9vh;
     }
     .types {
-        margin-top: 5vh; 
-        font-size: 3.8vw;
-        padding: 1.4vw 4vw;
-        border-radius: 50vw;
+        font-size: 5vw;
+        width: 58vw;
     }
-    p {
-        font-size: 3.5vw;
-        margin-top: 2vh; 
-        margin-bottom: 10px;
+    #icon{
+        font-size: 6vw;
+    }
+    p{
+        font-size: 3vw;
     }
 }
 

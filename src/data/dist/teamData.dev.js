@@ -79,7 +79,7 @@ var teamData = [{
 }, {
   id: 19,
   name: "Санжар",
-  responsibility: "Перетягивание каната"
+  responsibility: "Миникубок Голдберга"
 }, {
   id: 20,
   name: "Нурсултан",
