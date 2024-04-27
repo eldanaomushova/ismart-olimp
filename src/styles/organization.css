@@ -120,14 +120,14 @@ p{
         margin-top: 9vh;
     }
     .types {
-        font-size: 7vw;
+        font-size: 1.3rem;
         width: 54vw;
     }
     #icon{
         font-size: 8vw;
     }
     p{
-        font-size: 5vw;
+        font-size: 1rem;
     }
 }
 
@@ -144,6 +144,9 @@ p{
         width: 95vw; 
         margin: 4rem auto;
         font-size: 5vw; 
+    }
+    .rules {
+        margin-top: 0.5rem;
     }
     .data-container {
         display: flex;
@@ -176,7 +179,7 @@ p{
         font-size: 8vw;
     }
     p{
-        font-size: 5vw;
+        font-size: 6vw;
     }
 }
 

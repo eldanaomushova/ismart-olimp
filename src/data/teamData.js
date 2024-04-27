@@ -111,6 +111,11 @@ const teamData = [
     },
     {
         id: 23,
+        name: "Азирет",
+        responsibility: "Карантинная зона"
+    },
+    {
+        id: 24,
         name: "Эмир",
         responsibility: "Разработчик"
     },
