@@ -44,7 +44,7 @@ const Organization = () => {
                         <div className='name-links'>
                             <h3 className='types' id='competitions'>Кок-бору</h3>
                             <a href='https://drive.google.com/file/d/1KFknnKECiq-SjbIrDA4h5zLSN710A8TZ/view?usp=sharing' target="_blank" rel="noreferrer" className='doc-link'><IoDocumentTextOutline id='icon'/></a>
-                            <a href='' target="_blank" rel="noreferrer" className='doc-link'><IoLogoYoutube id='icon'/></a>
+                            <a href='https://youtu.be/GWlDMlgpUu0?si=vPBv-xUjwLweSIgF' target="_blank" rel="noreferrer" className='doc-link'><IoLogoYoutube id='icon'/></a>
                         </div>
                             <p>Кок-бору — это симбиоз скачек и игры. Мы предлагаем перенести эту игру на поле состязания
                                 роботов. Две команды борются за захват и удерживание максимального количества животных.</p>
@@ -64,7 +64,7 @@ const Organization = () => {
                         <div className='name-links'>
                             <h3 className='types' id='competitions'>Дрон-рейсинг</h3>
                             <a href='https://docs.google.com/document/d/1e51Mq1ZV2aiLICJuLX7e-EskqMdnReugwmpDVSTLzdU/edit?usp=sharing' target="_blank" rel="noreferrer" className='doc-link'><IoDocumentTextOutline id='icon'/></a>
-                            <a href='' target="_blank" rel="noreferrer" className='doc-link'><IoLogoYoutube id='icon'/></a>
+                            <a href='https://www.youtube.com/watch?v=MJmr-wMZApk' target="_blank" rel="noreferrer" className='doc-link'><IoLogoYoutube id='icon'/></a>
                         </div>
                             <p>Дроны проходят через трассу с препятствиями, стараясь пройти её как можно быстрее.</p>
                         </div>
