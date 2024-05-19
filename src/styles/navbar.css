@@ -61,11 +61,6 @@ body {
 #icons-wh {
     font-size: 2rem;
 }
-/* #text-nav{
-    font-size: 1.2vw;
-    color: #000000;
-} */
-
 
 @media screen and (max-width: 768px) {
     .navigation-container {

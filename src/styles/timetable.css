@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.timetable-conctainer{
+    padding-bottom: 2vw;
+}
+#header{
+    font-size: 2vw;
+    font-family: "Open Sans", Arial, sans-serif;
+    margin: 2vw auto;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    padding: 10px 20px;
+    text-align: left;
+    border-bottom: 1px solid #cfcdcd;
+    font-size: 1.4vw;
+}
+th {
+    background-color: #c1c1c1;
+}
+
+@media screen and (max-width: 340px) {
+    .timetable-conctainer{
+        padding: 4px;
+    }
+    
+    #header{
+        font-size: 5vw;
+        margin: 3vw auto;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    th, td {
+        padding: 4px 2px;
+        font-size: 3vw;
+    }
+}
+
+@media screen and (min-width: 340px) and (max-width: 768px) {
+    .timetable-conctainer{
+        padding: 10px;
+    }
+    
+    #header{
+        font-size: 4vw;
+        margin: 3vw auto;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    th, td {
+        padding: 4px 2px;
+        font-size: 3vw;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .timetable-conctainer{
+        padding: 12px;
+    }
+    
+    #header{
+        font-size: 5vw;
+        margin: 3vw auto;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    th, td {
+        padding: 8px;
+        font-size: 3vw;
+    }
+}
+
