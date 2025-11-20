@@ -1,123 +1,120 @@
 const teamData = [
     {
         id: 1,
-        name: "Талант Арыстанов",
-        responsibility: "Организатор"
+        name: "Бектур",
+        responsibility: "Координатор",
+        img: "bektur"
     },
     {
         id: 2,
-        name: "Артур Кутлугильдин",
-        responsibility: "Организатор"
+        name: "Саидислом",
+        responsibility: "Sumo",
+        img: "saidislom"
     },
     {
         id: 3,
-        name: "Бектур",
-        responsibility: "Координатор"
+        name: "Магомед",
+        responsibility: "Sumo",
+        img: "magomed"
+    },
+    {
+        id: 3,
+        name: "Эльдияр",
+        responsibility: "Sumo",
+        img: "eldiar"
     },
     {
         id: 4,
-        name: "Эльдана",
-        responsibility: "Координатор"
-    },
-    {
-        id: 5,
-        name: "Саидислом",
-        responsibility: "Sumo"
-    },
-    {
-        id: 6,
-        name: "Магомед",
-        responsibility: "Sumo"
-    },
-    {
-        id: 7,
-        name: "Абай",
-        responsibility: "Line follower"
+        name: "Нурсезим",
+        responsibility: "Sumo",
+        img: "nursezim"
     },
     {
         id: 8,
-        name: "Нурсезим",
-        responsibility: "Line follower"
+        name: "Эльдана",
+        responsibility: "Дроны",
+        img: "eldana"
     },
     {
         id: 9,
+        name: "Айбийке",
+        responsibility: "Дроны",
+        img: "aibiike"
+    },
+    {
+        id: 5,
+        name: "Абай",
+        responsibility: "Line follower",
+        img: "abai"
+    },
+    {
+        id: 6,
+        name: "Иманбек",
+        responsibility: "Line follower",
+        img: "imanbek"
+    },
+    {
+        id: 7,
         name: "Баястан",
-        responsibility: "Кегель ринг"
+        responsibility: "Кегель ринг",
+        img: "bayastan"
     },
     {
         id: 10,
-        name: "Азалия",
-        responsibility: "Кок Бору"
+        name: "Байсал",
+        responsibility: "Mailo",
+        img: "baisal"
     },
     {
         id: 11,
-        name: "Алтынай",
-        responsibility: "Дроны"
+        name: "Азис",
+        responsibility: "Mailo",
+        img: "azis"
     },
     {
-        id: 12,
-        name: "Айбийке",
-        responsibility: "Дроны"
+        id: 11,
+        name: "Марлен",
+        responsibility: "Вездеход",
+        img: "marlen"
     },
     {
         id: 13,
-        name: "Гульзада",
-        responsibility: "Дроны"
+        name: "Айтурган",
+        responsibility: "Гонки",
+        img: "aiturgan"
     },
     {
+        id: 13,
+        name: "Назик",
+        responsibility: "Гонки",
+        img: "nazik"
+    },
+
+    {
+        id: 12,
+        name: "Нурали",
+        responsibility: "Кок бору",
+        img: "nurali"
+    },
+    {
+        id: 12,
+        name: "Адыл",
+        responsibility: "Кок бору",
+        img: "adyl"
+    },
+
+    {
         id: 14,
-        name: "Эрлан",
-        responsibility: "Миникубок Голдберга"
+        name: "Мээрим",
+        responsibility: "Перетягивание Каната",
+        img: "meerim"
     },
     {
         id: 15,
-        name: "Шахназа",
-        responsibility: "Гонка"
+        name: "Аиза",
+        responsibility: "Перетягивание Каната",
+        img: "aiza"
     },
-    {
-        id: 16,
-        name: "Бермет",
-        responsibility: "Гонка"
-    },
-    {
-        id: 17,
-        name: "Байсал",
-        responsibility: "Mailo"
-    },
-    {
-        id: 18,
-        name: "Азис",
-        responsibility: "Mailo"
-    },
-    {
-        id: 19,
-        name: "Санжар",
-        responsibility: "Миникубок Голдберга"
-    },
-    {
-        id: 20,
-        name: "Нурсултан",
-        responsibility: "Вездеход"
-    },
-    {
-        id: 21,
-        name: "Тынай",
-        responsibility: "Перетягивание каната"
-    },
-    {
-        id: 22,
-        name: "Санжар М",
-        responsibility: "Перетягивание каната"
-    },
-    {
-        id: 23,
-        name: "Азирет",
-        responsibility: "Карантинная зона"
-    },
-    {
-        id: 24,
-        name: "Эмир",
-        responsibility: "Разработчик"
-    },
+
 ]
 export default teamData;

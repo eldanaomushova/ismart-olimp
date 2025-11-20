@@ -7,7 +7,6 @@ body, html {
     background-color: #FFFE03;
     padding: 1vw;
     color: black;
-    width: 100vw;
     display: flex;
     justify-content: space-around; 
     align-items: center; 
@@ -38,7 +37,7 @@ a {
 @media screen and (max-width: 340px) {
     .footer { 
         height: 8vh;
-        padding: 2vw 0;
+        padding: 12px 12px;
     }
     a {
         font-size: 4vw;
@@ -51,7 +50,7 @@ a {
 @media screen and (min-width: 340px) and (max-width: 768px) {
     .footer { 
         height: 8vh;
-        padding: 1vw;
+        padding: 12px 12px;
     }
     a {
         font-size: 4vw;
@@ -60,7 +59,7 @@ a {
         margin-right: 1.5vw;
         font-size: 4vw;
     }
-    }
+}
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .footer { 
         height: 8vh;

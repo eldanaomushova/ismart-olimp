@@ -40,8 +40,8 @@ body{
     align-items: center;
 }
 .container img{
-    width: 24vw;
-    height: 40vh;
+    width: 22vw;
+    height: 34vh;
 }
 .photo-desc {
     margin-top: 6vh; 
@@ -62,7 +62,7 @@ body{
     font-size: 1.8vw;
     font-family: "Open Sans", Arial, sans-serif;
     width: fit-content;
-    width: 14vw;
+    width: 19.5vw;
 }
 #icon{
     font-size: 1.8vw;
@@ -121,7 +121,7 @@ p{
     }
     .types {
         font-size: 1.3rem;
-        width: 54vw;
+        width: 72vw;
     }
     #icon{
         font-size: 8vw;
@@ -173,7 +173,7 @@ p{
     }
     .types {
         font-size: 7vw;
-        width: 58vw;
+        width: 75vw;
     }
     #icon{
         font-size: 8vw;
@@ -219,7 +219,7 @@ p{
     }
     .types {
         font-size: 5vw;
-        width: 58vw;
+        width: 75vw;
     }
     #icon{
         font-size: 6vw;

@@ -5,6 +5,7 @@ import Main from './main';
 import Footer from './footer';
 import Team from './team';
 import Timetable from './timetable';
+import Gallery from './gallery';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Main />
             <Timetable />
             <Organization />
+            <Gallery />
             <Team />
             <Footer/>
         </div>

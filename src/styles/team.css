@@ -1,9 +1,8 @@
 #header {
   margin: 2vh 0;
-  font-size: 3vw;
+  font-size: 36px;
   color: #000000;
   text-align: center;
-  color: #000000;
   font-family: "Open Sans", Arial, sans-serif;
   align-self: center;
   height: auto;
@@ -11,11 +10,11 @@
 
 .products-container {
   display: grid;
-  grid-template-columns: repeat(25, 1fr); 
+  grid-template-columns: repeat(19, 1fr); 
   grid-gap: 24px; 
   overflow-x: auto; 
   scroll-snap-type: x mandatory;
-  width: 100vw;
+  width: 90vw;
   overflow-y: hidden; 
   white-space: nowrap; 
   padding-bottom: 24px;
@@ -57,19 +56,6 @@
     margin: 3vh 0;
     font-size: 6vw;
   }
-  
-  .products-container {
-    display: grid;
-    grid-template-columns: repeat(25, 1fr); 
-    grid-gap: 10px; 
-    overflow-x: auto; 
-    scroll-snap-type: x mandatory;
-    width: 100vw;
-    overflow-y: hidden; 
-    white-space: nowrap; 
-    padding-bottom: 24px;
-  }
-  
   .box {
     width: 170px; 
     scroll-snap-align: start; 
@@ -108,14 +94,7 @@
   
   .products-container {
     display: grid;
-    grid-template-columns: repeat(25, 1fr); 
     grid-gap: 10px; 
-    overflow-x: auto; 
-    scroll-snap-type: x mandatory;
-    width: 100vw;
-    overflow-y: hidden; 
-    white-space: nowrap; 
-    padding-bottom: 24px;
   }
   
   .box {
@@ -152,19 +131,6 @@
     margin: 3vh 0;
     font-size: 6vw;
   }
-  
-  .products-container {
-    display: grid;
-    grid-template-columns: repeat(25, 1fr); 
-    grid-gap: 10px; 
-    overflow-x: auto; 
-    scroll-snap-type: x mandatory;
-    width: 100vw;
-    overflow-y: hidden; 
-    white-space: nowrap; 
-    padding-bottom: 24px;
-  }
-  
   .box {
     width: 200px; 
     scroll-snap-align: start; 

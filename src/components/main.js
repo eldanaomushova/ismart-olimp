@@ -3,7 +3,7 @@ import '../styles/main.css';
 
 const Main = () => {
     const handleRegstr = () => {
-        window.open("https://docs.google.com/forms/d/e/1FAIpQLScKR8yVMH_huauSrgHYZxj43OqkrWvNWdfvbCYuchow64CSLA/viewform", "_blank");
+        window.open("https://docs.google.com/forms/u/1/d/e/1FAIpQLScJfkNXAiPlSGQrQSa9K3-xxNmlzaGszmEE-jWp0lOE4-bWCw/viewform", "_blank");
     };
 
     useEffect(() => {
@@ -29,11 +29,11 @@ const Main = () => {
                 </div>
                 <div className='info2-container'>
                     <h2 className='info1'>Олимпиада по робототехнике</h2>
-                    <h2 className='info2'>11 мая 2024 Cambridge school</h2>
+                    <h2 className='info2'>17 мая 2025 Cambridge school</h2>
                 </div>
-                <button onClick={handleRegstr} className='results-btn'>Регистрация</button>
-                <h2 className='free'>Бесплатное участие</h2>
-                <h2 className='deadline'>&#10035; Дедлайн: 4 мая 00:00</h2>
+                {/* <button onClick={handleRegstr} className='results-btn'>Регистрация</button> */}
+                <h2 className='free'>Взнос - 350 сом с участника</h2>
+                <h2 className='deadline'>Дедлайн: 13 мая 17:00</h2>
             </div>
         </div>
     );
